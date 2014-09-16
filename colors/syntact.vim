@@ -21,13 +21,21 @@ hi Normal       gui=none guibg=#363636 guifg=#B8B8B8
 hi LineNr       gui=none guibg=#363636 guifg=#B8B8B8
 hi StatusLine   gui=none guibg=#212121 guifg=#B8B8B8
 hi StatusLineNC gui=none guibg=#212121 guifg=#B8B8B8
-hi Search       gui=none guibg=#FFBBBB guifg=#363636
-hi IncSearch    gui=none guibg=#FFBBBB guifg=#363636
+hi Search       gui=bold guibg=#FFBBBB guifg=#363636
+hi IncSearch    gui=bold guibg=#FFBBBB guifg=#363636
 hi CursorLine   gui=none guibg=#545454
 
 "  ----
 "  Syntax Highlighting
 "  ----
-hi Keyword      gui=none guifg=#A2A2A2
-hi Comment      gui=none guifg=#838383
-hi Delimiter    gui=none guifg=#FF8888
+hi Keyword      gui=none        guifg=#A2A2A2
+hi Comment      gui=none        guifg=#838383
+hi Delimiter    gui=none        guifg=#FF8888
+hi Identifier   gui=none        guifg=#AAFFAA
+hi Number       gui=none        guifg=#AAAAFF
+hi Symbol       gui=none        guifg=#FAAA83
+hi Method       gui=none        guifg=#FA83DB
+hi Type         gui=none        guifg=#AABBFF
+hi Undelined    gui=underline
+hi Statement    gui=none        guifg=#BB8383
+hi String       gui=underline   guifg=#AAFFAA
