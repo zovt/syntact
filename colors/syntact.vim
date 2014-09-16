@@ -4,6 +4,8 @@
 "  License: RiDE License
 "  ----
 
+let g:colors_name = "syntact"
+
 highlight clear Normal
 set background=dark
 set linespace=2
