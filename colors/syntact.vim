@@ -19,3 +19,5 @@ hi LineNr       gui=none guibg=#363636 guifg=#B8B8B8
 hi StatusLine   gui=none guibg=#212121 guifg=#B8B8B8
 hi StatusLineNC gui=none guibg=#212121 guifg=#B8B8B8
 hi Search       gui=none guibg=#FFBBBB guifg=#363636
+hi IncSearch    gui=none guibg=#FFBBBB guifg=#363636
+hi CursorLine   gui=none guibg=#545454 guifg=#B8B8B8
