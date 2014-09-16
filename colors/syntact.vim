@@ -24,8 +24,14 @@ hi StatusLineNC gui=none guibg=#212121 guifg=#DDDDDD
 hi Search       gui=bold guibg=#FFBBBB guifg=#363636
 hi IncSearch    gui=bold guibg=#FFBBBB guifg=#363636
 hi CursorLine   gui=none guibg=#545454
-hi PMenu        gui=bold guibg=#686868 guifg=#FFBBBB
 hi Todo         gui=none guibg=#BB88FF guifg=#FFFFFF
+hi VertSplit    gui=none guibg=#363636 guifg=#808080
+
+"  ----
+"  Menu
+"  ----
+hi PMenu        gui=none guibg=#686868 guifg=#DDDDDD
+hi PMenuSel     gui=bold guibg=#787878
 
 "  ----
 "  Syntax Highlighting
