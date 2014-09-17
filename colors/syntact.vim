@@ -24,10 +24,10 @@ hi Normal       gui=none guibg=#303030 guifg=#DDDDDD
 hi LineNr       gui=none guibg=#303030 guifg=#DDDDDD
 hi StatusLine   gui=none guibg=#212121 guifg=#DDDDDD
 hi StatusLineNC gui=none guibg=#212121 guifg=#DDDDDD
-hi Search       gui=bold guibg=#FFBBBB guifg=#363636
-hi IncSearch    gui=bold guibg=#FFBBBB guifg=#363636
+hi Search       gui=none guibg=#BBBBBB guifg=#363636
+hi IncSearch    gui=none guibg=#BBBBBB guifg=#363636
 hi CursorLine   gui=none guibg=#545454
-hi Todo         gui=none guibg=#BB88FF guifg=#FFFFFF
+hi Todo         gui=none guibg=#B3B3B3 guifg=#444444
 hi VertSplit    gui=none guibg=#363636 guifg=#808080
 hi Cursor       gui=none guibg=#949494
 hi iCursor      gui=none guibg=#949494
@@ -43,7 +43,7 @@ hi PMenuSel     gui=bold guibg=#787878
 "  ----
 hi Keyword      gui=none        guifg=#A2A2A2
 hi Comment      gui=none        guifg=#838383
-hi Delimiter    gui=none        guifg=#FF8888
+hi Delimiter    gui=none        guifg=#A2A2A2
 hi Identifier   gui=none        guifg=#AAAAB8
 hi Number       gui=none        guifg=#DDC5C5
 hi Symbol       gui=none        guifg=#B8B8B8
