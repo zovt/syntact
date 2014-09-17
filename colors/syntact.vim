@@ -1,8 +1,11 @@
 "  ----
 "  Vim color File
 "  Maintainer: ragesalmon <ragesalmon@gmail.com>
-"  License: RiDE License
+"  License: RiDE License <https://github.com/ragesalmon/RiDE/blob/master/license.md>
 "  ----
+"
+"  Special thanks to Vivify. While this scheme was not made using it, it is
+"  extremely useful for finding out what type of elements things are.
 
 let g:colors_name = "syntact"
 
@@ -17,8 +20,8 @@ endif
 "  ----
 "  General Colors
 "  ----
-hi Normal       gui=none guibg=#363636 guifg=#DDDDDD
-hi LineNr       gui=none guibg=#363636 guifg=#DDDDDD
+hi Normal       gui=none guibg=#303030 guifg=#DDDDDD
+hi LineNr       gui=none guibg=#303030 guifg=#DDDDDD
 hi StatusLine   gui=none guibg=#212121 guifg=#DDDDDD
 hi StatusLineNC gui=none guibg=#212121 guifg=#DDDDDD
 hi Search       gui=bold guibg=#FFBBBB guifg=#363636
@@ -26,6 +29,8 @@ hi IncSearch    gui=bold guibg=#FFBBBB guifg=#363636
 hi CursorLine   gui=none guibg=#545454
 hi Todo         gui=none guibg=#BB88FF guifg=#FFFFFF
 hi VertSplit    gui=none guibg=#363636 guifg=#808080
+hi Cursor       gui=none guibg=#949494
+hi iCursor      gui=none guibg=#949494
 
 "  ----
 "  Menu
@@ -46,7 +51,13 @@ hi Method       gui=none        guifg=#C7C7C7
 hi Type         gui=none        guifg=#B3B3B3
 hi Undelined    gui=underline
 hi Statement    gui=none        guifg=#AABCAA
-hi String       gui=bold        guifg=#DDDDDD
+hi String       gui=italic      guifg=#DDDDDD
 hi PreProc      gui=none        guifg=#CCBBCC
 hi Special      gui=none        guifg=#ACACAC
 hi Constant     gui=none        guifg=#A8A8A8
+hi MatchParen   gui=none                       guibg=#848484
+
+"  ----
+"  Rainbow Parentheses
+"  ----
+let g:rainbow_guifgs = ["#A2A2A2", "#838383", "#ACACAC", "#AAAAB8"]
