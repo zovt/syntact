@@ -31,6 +31,7 @@ hi Todo         gui=none guibg=#B3B3B3 guifg=#444444
 hi VertSplit    gui=none guibg=#363636 guifg=#808080
 hi Cursor       gui=none guibg=#949494
 hi iCursor      gui=none guibg=#949494
+hi Folded       gui=none guibg=#484848 guifg=#DDDDDD
 
 "  ----
 "  Menu
