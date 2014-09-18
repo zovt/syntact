@@ -57,6 +57,8 @@ hi PreProc      gui=none        guifg=#CCBBCC
 hi Special      gui=none        guifg=#ACACAC
 hi Constant     gui=none        guifg=#A8A8A8
 hi MatchParen   gui=none                       guibg=#848484
+hi Title        gui=italic      guifg=#D0D0D0
+hi ModeMsg      gui=underline   guifg=#DDDDDD
 
 "  ----
 "  Rainbow Parentheses
