@@ -1,6 +1,9 @@
 # Syntact
 Syntact is a colorscheme which focuses on non-obtrusive syntax highlighting, with a light and dark variant.
-
+## Syntact Dark
+![Syntact Dark](./screenshots/syntact_dark.png "Syntact Dark") 
+## Syntact Light
+![Syntact Light](./screenshots/syntact_light.png "Syntact Dark") 
 ## Goals
 - [x] Provide a simple theme with simple highlighting
 - [x] Add a dark theme
