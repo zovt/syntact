@@ -11,7 +11,8 @@ Syntact is a colorscheme which focuses on non-obtrusive syntax highlighting, wit
 - [ ] Add an emacs theme to mirror the vim themes
 
 ## Todo
-- [ ] Add screenshots!
+- [x] Add screenshots!
+- [ ] Add airline coloration
 - [ ] Make syntact dark more monochrome
 - [ ] Make syntact light a bit more readable
 - [ ] Add cterm support
