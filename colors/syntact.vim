@@ -45,15 +45,15 @@ hi PMenuSel     gui=bold guibg=#787878
 hi Keyword      gui=none        guifg=#A2A2A2
 hi Comment      gui=none        guifg=#838383
 hi Delimiter    gui=none        guifg=#A2A2A2
-hi Identifier   gui=none        guifg=#AAAAB8
-hi Number       gui=none        guifg=#DDC5C5
+hi Identifier   gui=none        guifg=#AAAAAA
+hi Number       gui=none        guifg=#CACACA
 hi Symbol       gui=none        guifg=#B8B8B8
 hi Method       gui=none        guifg=#C7C7C7
 hi Type         gui=none        guifg=#B3B3B3
 hi Undelined    gui=underline
-hi Statement    gui=none        guifg=#AABCAA
+hi Statement    gui=none        guifg=#BABABA
 hi String       gui=italic      guifg=#DDDDDD
-hi PreProc      gui=none        guifg=#CCBBCC
+hi PreProc      gui=none        guifg=#CCCCCC
 hi Special      gui=none        guifg=#ACACAC
 hi Constant     gui=none        guifg=#A8A8A8
 hi MatchParen   gui=none                       guibg=#848484
@@ -65,4 +65,4 @@ hi Conceal      gui=underline                  guibg=NONE
 "  ----
 "  Rainbow Parentheses
 "  ----
-let g:rainbow_guifgs = ["#A2A2A2", "#838383", "#ACACAC", "#AAAAB8"]
+let g:rainbow_guifgs = ["#A2A2A2", "#838383", "#ACACAC", "#AAAAAA"]
