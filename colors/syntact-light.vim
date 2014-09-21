@@ -59,6 +59,8 @@ hi Constant     gui=none        guifg=#445858
 hi MatchParen   gui=none                       guibg=#848484
 hi Title        gui=italic      guifg=#565656
 hi ModeMsg      gui=underline   guifg=#656565
+hi ColorColumn  gui=none                       guibg=#A0A0A0
+hi Conceal      gui=underline   guifg=NONE     guibg=NONE
 
 "  ----
 "  Rainbow Parentheses
