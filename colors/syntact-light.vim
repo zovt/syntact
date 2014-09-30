@@ -22,6 +22,7 @@ endif
 "  ----
 hi Normal       gui=none guifg=#444444 guibg=#DDDDDD
 hi LineNr       gui=none guifg=#444444 guibg=#DDDDDD
+hi CursorLineNr gui=none guifg=#444444 guibg=#DDDDDD
 hi StatusLine   gui=none guibg=#212121 guifg=#DDDDDD
 hi StatusLineNC gui=none guibg=#DDDDDD guifg=#999999
 hi Search       gui=none guibg=#BBBBBB guifg=#363636
@@ -32,7 +33,7 @@ hi VertSplit    gui=none guibg=#444444 guifg=#DDDDDD
 hi Cursor       gui=none guibg=#555555
 hi iCursor      gui=none guibg=#555555
 hi Folded       gui=none guibg=#A4A4A4 guifg=#DDDDDD
-" TODO: hello
+
 "  ----
 "  Menu
 "  ----

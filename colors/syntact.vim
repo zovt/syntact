@@ -22,6 +22,7 @@ endif
 "  ----
 hi Normal       gui=none guibg=#303030 guifg=#DDDDDD
 hi LineNr       gui=none guibg=#303030 guifg=#DDDDDD
+hi CursorLineNr gui=none guibg=#303030 guifg=#DDDDDD
 hi StatusLine   gui=none guibg=#212121 guifg=#DDDDDD
 hi StatusLineNC gui=none guibg=#212121 guifg=#DDDDDD
 hi Search       gui=none guibg=#BBBBBB guifg=#363636
