@@ -1,7 +1,7 @@
 "  ----
 "  Vim color File
-"  Maintainer: ragesalmon <ragesalmon@gmail.com>
-"  License: RiDE License <https://github.com/ragesalmon/RiDE/blob/master/license.md>
+"  Maintainer: zovt <zovt@gmail.com>
+"  License: RiDE License <https://github.com/zovt/RiDE/blob/master/license.md>
 "  ----
 "
 "  Special thanks to Vivify. While this scheme was not made using it, it is
