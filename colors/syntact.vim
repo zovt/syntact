@@ -73,17 +73,39 @@ let g:rainbow_guifgs = ["#A2A2A2", "#838383", "#ACACAC", "#AAAAAA"]
 "  ----
 let g:airline#themes#syntact#palette = {}
 
-let s:N1 = ['#686868', '#DDDDDD', 1, 1]
-let s:N2 = ['#363636', '#808080', 1, 1]
-let s:N3 = ['#BBBBBB', '#303030', 1, 1]
+let s:N1 = ['#303030', '#DDDDDD', 1, 1]
+let s:N2 = ['#303030', '#808080', 1, 1]
+let s:N3 = ['#DDDDDD', '#303030', 1, 1]
 
 let g:airline#themes#syntact#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
-let g:airline#themes#dark#palette.normal_modified = {
-      \ 'airline_c': [ '#BBBBBB' , '#656565' , 255     , 53      , ''     ] ,
+let g:airline#themes#syntact#palette.normal_modified = {
+      \ 'airline_c': [ '#DDDDDD' , '#656565' , 255     , 53      , ''     ] ,
       \ }
 
-let s:I1 = ['#686868', '#DDDDDD', 1, 1]
-let s:I2 = ['#363636', '#808080', 1, 1]
-let s:I3 = ['#BBBBBB', '#303030', 1, 1]
+let s:I1 = ['#303030', '#DDDDDD', 1, 1]
+let s:I2 = ['#303030', '#808080', 1, 1]
+let s:I3 = ['#DDDDDD', '#303030', 1, 1]
 let g:airline#themes#syntact#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+
+let g:airline#themes#syntact#palette.insert_modified = {
+      \ 'airline_c': [ '#DDDDDD' , '#656565' , 255     , 53      , ''     ] ,
+      \ }
+
+let s:IA1 = ['#303030', '#505050', 1, 1]
+let s:IA2 = ['#303030', '#404040', 1, 1]
+let s:IA3 = ['#DDDDDD', '#303030', 1, 1]
+let g:airline#themes#syntact#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
+let g:airline#themes#syntact#palette.inactive_modified = {
+      \ 'airline_c': [ '#DDDDDD' , '#656565' , 255     , 53      , ''     ] ,
+      \ }
+
+if !get(g:, 'loaded_ctrlp', 0)
+    finish
+endif
+
+let s:CTRLP1 = ['#303030', '#DDDDDD', 1, 1]
+let s:CTRLP2 = ['#303030', '#808080', 1, 1]
+let s:CTRLP3 = ['#DDDDDD', '#303030', 1, 1]
+
+let g:airline#themes#syntact#palette.normal = airline#themes#generate_color_map(s:CTRLP1, s:CTRLP2, s:CTRLP3)
